@@ -403,12 +403,9 @@ nav .nav-container .logo {
 	padding: 0 110px 0 110px;
 	background-color: #ffffff;
 }
-.marketing-images {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
 
 .images-wrapper {
+	border: 1px solid black;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -433,6 +430,7 @@ nav .nav-container .logo {
 .marketing-icons {
 	display: inline-flex;
 	flex-direction: row;
+	/* padding-bottom: 50px; */
 }
 .marketing-icons p {
 	margin-top: 30px;
@@ -446,17 +444,21 @@ nav .nav-container .logo {
 
 .responsive {
 	width: 25%;
+	border: 1px solid black;
 }
 
 .syndication {
+	border: 1px solid black;
 	width: 25%;
 }
 
 .virtual-tour {
+	border: 1px solid black;
 	width: 25%;
 }
 
 .drone {
+	border: 1px solid black;
 	width: 25%;
 }
 /* grid-section */
